@@ -2,7 +2,6 @@ CREATE OR REPLACE TRIGGER T_B_I_insere_comissao
   BEFORE INSERT ON linhas_notas_fiscais
   FOR EACH ROW
 BEGIN
---insere comissao ao vendedor de cada item vendido na nf-e
   declare
   
     vn_valor    linhas_notas_fiscais.valor_unitario%type;
