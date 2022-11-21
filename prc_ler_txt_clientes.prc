@@ -1,7 +1,7 @@
-create or replace procedure prc_ler_txt_clientes (en_diretorio in varchar2
+create or replace procedure hr.prc_ler_txt_clientes (en_diretorio in varchar2
                                                  ,en_arquivo in varchar2) is
 --Procedure criada por Cesar Souza
---Essa procedure l? o TXT do diret?rio informado e inserere na tabela clientes
+--Essa procedure lê o TXT do diretório informado(criado na tabela all_directories) e inserere na tabela clientes
   v_text         varchar2(4000);
   v_text2        varchar2(4000);
   v_inicia       number;
