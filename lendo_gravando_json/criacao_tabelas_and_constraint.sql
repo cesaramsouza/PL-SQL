@@ -36,14 +36,13 @@ create table EMAIL_CLIENTE
 
 create table ENDERECO_CLIENTE
 (
-  id          NUMBER not null primary key,
+  id          NUMBER not null,
   data_insert TIMESTAMP(6) WITH TIME ZONE,
   cliente_id  NUMBER not null,
-  Rua       VARCHAR2(255),
-  Cidade    VARCHAR2(60),
-  Estado    VARCHAR2(35),
-  CEP       VARCHAR2(10),
-  Pais      VARCHAR2(80)
+  rua         VARCHAR2(255),
+  cidade      VARCHAR2(60),
+  bairro      VARCHAR2(35),
+  numero      VARCHAR2(10)
 )
 
 alter table CEL_CLIENTE 
