@@ -2,7 +2,7 @@ create or replace package pkg_integra_cliente is
 
   -- Criador  : CESAR
   -- Criado   : 24/11/2022 22:38:07
-  
+  --teste github 06/09/2023
   --type
   type integra_clinte_type is record(nome VARCHAR2(255), 
                                       idade NUMBER(3), 
@@ -174,7 +174,7 @@ begin
 
   commit;
   
-  --Remove arquivo lido do diretório
+  --Remove arquivo lido do diretï¿½rio
   --UTL_FILE.FREMOVE ('ARQUIVOS', nome_arq);
   
 end prc_integra_arq;
