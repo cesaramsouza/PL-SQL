@@ -2,11 +2,12 @@ create or replace function fkg_retorna_existe_limite (en_cliente_id clientes.cli
                                                      , en_valor clientes.limite%type)
 return boolean
 is
---retorna se o cliente tem limite ou não
+--retorna se o cliente tem limite ou nÃ£o
   vn_limite clientes.limite%type := null;
   tem_limite boolean;
 begin
-
+--teste maverick
+dbms_output.put_line('Teste');
 select limite
   into vn_limite
   from clientes
