@@ -1,8 +1,0 @@
-{
-    "supported_file_extensions": ["sql"], 
-    "ignored_directories": ["na"],
-    "auto_review_all_prs": true,
-    "blacklisted_branches": ["na"],
-    "supported_pr_creators": ["cesaramsouza"],
-    "blacklisted_pr_title_regexes": ["\\[bot\\]"]
-}
