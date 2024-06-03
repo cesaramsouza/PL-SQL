@@ -1,8 +1,8 @@
 {
-    "supported_file_extensions": ["pkb","pks","sql","trg"], 
+    "supported_file_extensions": ["sql"], 
     "ignored_directories": [""],
     "auto_review_all_prs": true,
-    "blacklisted_branches": ["main"],
+    "blacklisted_branches": [""],
     "supported_pr_creators": ["MyUser"],
     "blacklisted_pr_title_regexes": [""]
 }
